@@ -12,6 +12,8 @@ import FindUs from "../components/FindUs/FindUs";
 import Gallery from "../components/Gallery/Gallery";
 import AboutUs from "../components/AboutUs/AboutUs";
 import Footer from "../components/Footer/Footer";
+
+
 export default function App() {
   return (
     <div >

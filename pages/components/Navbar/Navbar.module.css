@@ -137,7 +137,7 @@ border: 0.5 px red
     }
 
     .app__navbar-login {
-       color: aliceblue;
+       display: none;
     }
 
     .app__navbar-logo img {
