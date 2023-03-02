@@ -47,7 +47,7 @@ const SpecialMenu = () => {
         </div>
       </div>
       <div style={{marginTop : '15px'}}>
-        <button className="custom__button" ></button>
+        <button type='button' className="custom__button" >View more</button>
       </div>
     </div>
   );
