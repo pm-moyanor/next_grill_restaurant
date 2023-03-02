@@ -6,7 +6,7 @@ const Subheading = ({ title }) => {
     <div>
       <p className="p__cormorant">{title}</p>
 
-      <img src='/images/spoon.png' alt="spoon image" />
+      <img src='/images/spoon.png' alt="spoon_image" className="spoon__img"/>
     </div>
   );
 };

@@ -114,3 +114,26 @@
 
   margin-left: 2rem;
 }
+
+.app__wrapper-img img {
+  width: 80%;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headtext__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
