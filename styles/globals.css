@@ -18,6 +18,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
   scroll-behavior: smooth;
 }
 
@@ -178,9 +179,10 @@
   }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (min-width: 1150px) {
   .app__wrapper {
     flex-direction: column;
+  
   }
 
   .app__wrapper_img {
@@ -196,13 +198,13 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (min-width: 850px) {
   .section__padding {
     padding: 4rem;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (min-width: 650px) {
   .section__padding {
     padding: 4rem 2rem;
   }

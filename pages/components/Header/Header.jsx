@@ -6,7 +6,7 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <div
-      className={`${styles["app__header"]} app__wrapper section__padding`}
+       className={`${styles["app__header"]} app__wrapper section__padding`}
       id="home"
     >
       <div className="app__wraper_info">
