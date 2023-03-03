@@ -1,7 +1,7 @@
 import styles from "./Chef.module.css";
 import Subheading from "../Subheading/Subheading";
 
-console.log(styles["app__chef-content_quote"]);
+
 const Chef = () => {
   return (
     <div className="app__bg app__wrapper section__padding">
