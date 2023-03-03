@@ -56,27 +56,27 @@ const cocktails = [
   },
 ];
 
-// const awards = [
-//   {
-//     imgUrl: images.award02,
-//     title: 'Bib Gourmond',
-//     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-//   },
-//   {
-//     imgUrl: images.award01,
-//     title: 'Rising Star',
-//     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-//   },
-//   {
-//     imgUrl: images.award05,
-//     title: 'AA Hospitality',
-//     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-//   },
-//   {
-//     imgUrl: images.award03,
-//     title: 'Outstanding Chef',
-//     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-//   },
-// ];
+const awards = [
+  {
+    imgUrl: './images/award02.png',
+    title: 'Bib Gourmond',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+  },
+  {
+    imgUrl: './images/award01.png',
+    title: 'Rising Star',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+  },
+  {
+    imgUrl: './images/award05.png',
+    title: 'AA Hospitality',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+  },
+  {
+    imgUrl: './images/award03.png',
+    title: 'Outstanding Chef',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+  },
+];
 
-export default { wines, cocktails};
+export default { wines, cocktails, awards};

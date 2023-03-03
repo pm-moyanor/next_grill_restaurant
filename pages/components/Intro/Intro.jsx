@@ -16,7 +16,7 @@ if(playVideo){
 }
   }
 
-  console.log(styles)
+
   return(
   <div className={styles.app__video}>
     <video
