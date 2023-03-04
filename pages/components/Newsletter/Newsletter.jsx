@@ -1,6 +1,6 @@
 import Subheading from "../Subheading/Subheading";
 import { useState } from "react";
-import styles from "../Newsletter/Newsletter.module.css"
+import styles from "../Newsletter/Newsletter.module.css";
 
 const Newsletter = () => {
   const [inputValue, setInputValue] = useState("");
@@ -11,12 +11,14 @@ const Newsletter = () => {
   }
 
   return (
-    <div className={`${"app__newsletter"} app__wrapper flex__center`}>
-      <Subheading title={"Newsletter"} />
-      <h1 className="headtext__cormorant">Subscribe to Our Newsletter</h1>
-      <p className="p__opensans">And never miss latest Updates!</p>
+    <div className={styles["app__newsletter"]}>
+      <div className={styles["app__newsletter-heading"]}>
+        <Subheading title={"Newsletter"} />
+        <h1 className="headtext__cormorant">Subscribe to Our Newsletter</h1>
+        <p className="p__opensans">And never miss latest Updates!</p>
+      </div>
 
-      <label>
+      <div className={styles["app__newsletter-input"]}>
         <input
           type="text"
           placeholder="email address"
@@ -25,10 +27,11 @@ const Newsletter = () => {
             handleSubmit(e);
           }}
         />
-      </label>
-      <button type="submit" className="custom__button">
-        subscribe
-      </button>
+
+        <button type="submit" className="custom__button">
+          subscribe
+        </button>
+      </div>
     </div>
   );
 };
