@@ -1,0 +1,36 @@
+
+
+.app__footer {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    background: var(--color-black);
+    padding-top: 0;
+}
+
+.app__footer-headtext {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-bottom: 1rem;
+}
+
+.app__footer-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-top: 5rem;
+    padding: 0 2rem;
+}
