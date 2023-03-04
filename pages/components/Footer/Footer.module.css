@@ -34,3 +34,23 @@
     margin-top: 5rem;
     padding: 0 2rem;
 }
+
+.app__footer-links_contact,
+.app__footer-links_logo,
+.app__footer-links_work {
+    width: 100%;
+    flex: 1;
+    margin: 1rem;
+    text-align: center;
+}
+
+.app__footer-links_icons {
+    margin-top: 0.5rem;
+}
+
+.app__footer-links_icons svg {
+    color: var(--color-white);
+    margin: 0.5rem;
+    font-size: 24px;
+    cursor: pointer;
+}
