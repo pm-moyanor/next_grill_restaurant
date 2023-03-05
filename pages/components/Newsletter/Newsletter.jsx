@@ -8,11 +8,11 @@ const Newsletter = () => {
 
   async function handleSubmit(e) {
     e.preventDefault();
-
+     
     const data = { email: email };
 //how to store in database ? local api ? 
     const JSONdata = JSON.stringify(data);
-
+console.log(JSONdata)
     setEmail('')
   }
 

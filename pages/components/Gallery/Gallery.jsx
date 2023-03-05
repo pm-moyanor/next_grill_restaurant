@@ -29,6 +29,8 @@ const Gallery = () => {
   makeArray();
   //console.log(images[0]);
 
+  const random = () => Math.floor(Math.random() * 100000)
+  console.log(random())
   return (
     <div className={`${styles["app__gallery"]} flex__center`}>
       <div className={`${styles["app__gallery-content"]}`}>
@@ -47,12 +49,11 @@ const Gallery = () => {
         >
           {images.map((image, index) => {
             return(
-              <div className={`${styles["app__gallery-images_card"]}`}>
+              <div key={random()} className={`${styles["app__gallery-images_card"]}`}>
               <img src={`${image}`} alt="gallery" />
             </div>
             )
-           {console.log(image)}
-
+     
           })}
         </div>
         <div className={`${styles["app__gallery-images_arrows"]}`}>
