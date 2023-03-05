@@ -1,13 +1,19 @@
 import Subheading from "../Subheading/Subheading";
 import { useState } from "react";
+
 import styles from "../Newsletter/Newsletter.module.css";
 
 const Newsletter = () => {
-  const [inputValue, setInputValue] = useState("");
+  const [email, setEmail] = useState("");
 
-  function handleSubmit(e) {
-    setInputValue(e.target.value);
-    console.log(inputValue);
+  async function handleSubmit(e) {
+    e.preventDefault();
+
+    const data = { email: email };
+//how to store in database ? local api ? 
+    const JSONdata = JSON.stringify(data);
+
+    setEmail('')
   }
 
   return (
@@ -18,20 +24,27 @@ const Newsletter = () => {
         <p className="p__opensans">And never miss latest Updates!</p>
       </div>
 
-      <div className={styles["app__newsletter-input"]}>
+      <form
+        onSubmit={handleSubmit}
+        className={styles["app__newsletter-input"]}
+        action="pages/api/subscribe"
+        method="post"
+      >
         <input
-          type="text"
-          placeholder="email address"
-          value={inputValue}
-          onChange={() => {
-            handleSubmit(e);
+          type="email"
+          placeholder="Enter email address"
+          value={email}
+          id="email"
+          name="email"
+          onChange={(e) => {
+            setEmail(e.target.value);
           }}
         />
 
         <button type="submit" className="custom__button">
           subscribe
         </button>
-      </div>
+      </form>
     </div>
   );
 };

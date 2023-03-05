@@ -1,12 +1,12 @@
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
-
+//import { handler } from "../api/subscribe";
 import Newsletter from "../Newsletter/Newsletter";
 import FooterOverlay from "../FooterOverlay/FooterOverlay";
 
 import styles from "./Footer.module.css";
 
 const Footer = () => {
-  console.log(Newsletter);
+//console.log(Newsletter);
   return (
     <div className={`${styles["app__footer"]} section__padding`} id="login">
       <FooterOverlay />
