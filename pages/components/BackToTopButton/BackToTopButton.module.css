@@ -1,0 +1,13 @@
+.app__back-to-top-button {
+  display: none;
+  position: fixed;
+  color: var(--color-golden);
+  background: none;
+  border: 1px solid var(--color-golden);
+
+  padding: 16px;
+  font-size: 14px;
+
+  bottom: 50px;
+  right: 50px;
+}

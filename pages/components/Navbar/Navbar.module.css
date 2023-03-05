@@ -21,7 +21,7 @@
     width: 150px;
   }
 /* why this concatenation  */
-  .app__navbar .app__navbar-links {
+  .app__navbar-links {
   
    
     flex: 1;
@@ -40,7 +40,7 @@
   
 }
 
-.app__navbar  .app__navbar-links li:hover{
+.app__navbar-links li:hover{
  color:gray
 }
 
@@ -69,7 +69,7 @@
 
 .app__navbar-smallscreen {
     /* somethig is overwriting the display none */
-border: 0.5 px red
+display: none;
 
 
 }
@@ -122,8 +122,11 @@ border: 0.5 px red
 }
 
 @media screen and (max-width: 1150px) {
+
+    /* overwritten? */
     .app__navbar-links {
         display: none;
+        background-color: blue; 
     }
 
     .app__navbar-smallscreen {

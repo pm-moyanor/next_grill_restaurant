@@ -12,7 +12,7 @@ import FindUs from "../components/FindUs/FindUs";
 import Gallery from "../components/Gallery/Gallery";
 import AboutUs from "../components/AboutUs/AboutUs";
 import Footer from "../components/Footer/Footer";
-
+import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 
 export default function App() {
   return (
@@ -27,6 +27,7 @@ export default function App() {
       <Gallery />
       <FindUs />
       <Footer />
+      <BackToTopButton />
     </div>
   );
 }
