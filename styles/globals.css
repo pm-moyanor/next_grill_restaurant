@@ -65,7 +65,7 @@
 }
 
 .app__bg {
-  background: url('/images/bg.png');
+  background: url('../public/images/bg.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -179,10 +179,9 @@
   }
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (max-width: 1150px) {
   .app__wrapper {
     flex-direction: column;
-  
   }
 
   .app__wrapper_img {
@@ -198,13 +197,13 @@
   }
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (max-width: 850px) {
   .section__padding {
     padding: 4rem;
   }
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (max-width: 650px) {
   .section__padding {
     padding: 4rem 2rem;
   }

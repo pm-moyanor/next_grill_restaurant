@@ -24,7 +24,7 @@ const Header = () => {
       <div className="app__wrapper_img">
         <img
           src="/images/welcome.png"
-          style={{ width: "500px" }}// added inline sizing instead !!
+          // style={{ width: "500px" }}// added inline sizing instead !!
           alt="header img"
         />
       </div>

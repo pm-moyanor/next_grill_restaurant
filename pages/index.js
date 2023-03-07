@@ -2,7 +2,21 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 
-import App from './App/App'
+
+
+import NavBar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header";
+import SpecialMenu from "./components/SpecialMenu/SpecialMenu";
+import Chef from "./components/Chef/Chef";
+import Intro from "./components/Intro/Intro";
+import Laurels from "./components/Laurels/Laurels";
+import FindUs from "./components/FindUs/FindUs";
+import Gallery from "./components/Gallery/Gallery";
+import AboutUs from "./components/AboutUs/AboutUs";
+import Footer from "./components/Footer/Footer";
+import BackToTopButton from "./components/BackToTopButton/BackToTopButton";
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +30,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='root'>
-     <App />
+  
+     <>
+     <NavBar />
+      <Header />
+      <AboutUs />
+      <SpecialMenu />
+      <Chef />
+      <Intro />
+      <Laurels />
+      <Gallery />
+      <FindUs />
+      <Footer />
+      <BackToTopButton />
+     </>
       </main>
     </>
   )

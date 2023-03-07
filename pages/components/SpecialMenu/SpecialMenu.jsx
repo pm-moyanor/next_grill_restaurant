@@ -32,6 +32,7 @@ const SpecialMenu = () => {
             })}
           </div>
         </div>
+        
         <div className={`${styles["app__specialMenu-menu_img"]}`}>
           <img src="/images/menu.png" />
         </div>

@@ -12,7 +12,7 @@ function ScrollToTopButton() {
       setIsVisible(false);
     }
   }
-
+ 
   function scrollToTop() {
     window.scrollTo({
       top: 0,
