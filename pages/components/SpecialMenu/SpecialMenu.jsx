@@ -7,6 +7,7 @@ const SpecialMenu = () => {
   return (
     <div
       className={`${styles["app__specialMenu"]} flex__center section__padding`}
+      id="menu"
     >
       <div className={`${styles["app__specialMenu-title"]}`}>
         <img src="/images/spoon.png" />

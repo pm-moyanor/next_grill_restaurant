@@ -13,7 +13,9 @@
 }
 
 .app__header-img img {
-    width: 80%;
+    width: 47px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
 }
 
 @media screen and (min-width: 2000px) {
