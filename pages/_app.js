@@ -1,14 +1,15 @@
-import '../styles/globals.css'
-import App from 'next/app'
-import Navbar from './components/Navbar/Navbar'
+import "../styles/globals.css";
 
+import Head from "next/head";
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
   return (
-  
-         <Component {...pageProps} />
-  
-   )
+    <>
+      <Head>
+        <meta name="viewport" content="viewport-fit=cover" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
 }
-

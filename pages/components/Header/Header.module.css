@@ -1,5 +1,7 @@
 .app__header {
     background-color: var(--color-black);
+    display: flex;
+    flex-direction: row;
 }
 
 .app__header-h1 {
@@ -13,9 +15,7 @@
 }
 
 .app__header-img img {
-    width: 47px;
-    height: 40px;
-    margin: 0 1rem 1rem 0;
+    width: 80%;
 }
 
 @media screen and (min-width: 2000px) {
