@@ -1,4 +1,4 @@
-.section__padding {
+/* .section__padding {
   padding: 4rem 6rem;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .app__bg {
-  background: url('./assets/bg.png');
+  background: url('../public/images/bg.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -20,7 +20,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
   min-height: 100vh;
 }
 
@@ -35,11 +37,10 @@
 
 .app__wrapper_img {
   flex: 1;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-left: 2rem;
 }
 
@@ -49,7 +50,7 @@
 }
 
 .app__wrapper_img img {
-  width: 80%;
+  width: 500px;
 }
 
 .custom__button {
@@ -99,9 +100,9 @@
 
 .spoon__img {
   width: 45px;
-}
+} 
 
-@media screen and (min-width: 2000px) {
+ @media screen and (min-width: 2000px) {
   .custom__button,
   .p__cormorant {
     font-size: 37px;
@@ -129,8 +130,7 @@
   }
 
   .app__wrapper_img {
-    margin: 10rem 0 0 0;
-    width: 80%;
+    margin: 5rem 0 0 0;
   }
 
   .app__wrapper_img-reverse {
@@ -138,11 +138,13 @@
   }
 
   .app__wrapper_img img {
-    width: 100%;
+    width: 70%;
   }
 }
 
 @media screen and (max-width: 850px) {
+
+  
   .section__padding {
     padding: 4rem;
   }
@@ -154,15 +156,16 @@
   }
   
   .p__cormorant {
-    font-size: 21px;
+    font-size: 20px;
   }
- 
+
   .p__opensans {
     font-size: 14px;
   }
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (min-width: 450px) {
   .p__opensans {
     font-size: 12px;
   }
@@ -170,10 +173,9 @@
   .p__cormorant {
     font-size: 19px;
   }
-  
+
   .headtext__cormorant {
     font-size: 45px;
     line-height: 70px;
   }
-
-}
+} */

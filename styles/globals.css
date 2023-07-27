@@ -55,7 +55,7 @@
 } 
 
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 8rem 8rem;
 }
 
 .flex__center {
@@ -76,10 +76,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+
   flex-direction: row;
-  /* flex-wrap: wrap; */
-  min-height: 100vh;
+ 
+  min-height: 90vh;
 }
 
 .app__wrapper_info {
@@ -107,6 +107,7 @@
 
 .app__wrapper_img img {
   width: 100%;
+  min-width: 500px;
 }
 
 .custom__button {
@@ -132,7 +133,7 @@
   text-transform: capitalize;
   font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
-  font-size: 23px;
+  font-size: 26px;
 }
 
 .p__opensans {
@@ -148,7 +149,7 @@
 .headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-golden);
-  font-size: 64px;
+  font-size: 62px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -186,7 +187,7 @@
   }
 
   .app__wrapper_img {
-    margin: 5rem 0 0 0;
+    margin: 5rem 0 0rem 0;
   }
 
   .app__wrapper_img-reverse {
@@ -194,7 +195,7 @@
   }
 
   .app__wrapper_img img {
-    width: 70%;
+    width: 50%;
   }
 }
 
@@ -221,7 +222,7 @@
 }
 
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 450px) {
   .p__opensans {
     font-size: 12px;
   }
